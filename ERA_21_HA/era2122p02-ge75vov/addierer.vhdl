@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------
+-- Copyright 2021, Lehrstuhl für Rechnerarchitektur & Parallele Systeme,
+-- Fakultät für Informatik, Technische Universität München
+--------------------------------------------------------------------------------
+
+--Libraries
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity addierer is
+
+	port (
+		A, B	:	in	std_logic_vector(2 downto 0);
+		SUM    	:	out	std_logic_vector(3 downto 0)
+	    );
+
+end entity;
